@@ -1,0 +1,38 @@
+.full { position:absolute ; width: 1920px; height: 141px;  background-repeat: no-repeat; left:-160px; }
+.top { top:0px; }
+.btm { bottom: 0px; width: 1280px; height: 40px; }
+
+.games { background: url('../images/ultimate-game.png'); opacity:0;}
+.matches { background: url('../images/ultimate-match.png'); opacity:0; top:50px;}
+.scores { width: 60px; height: 120px; background-repeat: no-repeat; }
+.players .player1bg{ background: url('../images/melee-player1.png');  right:1225px; /*790px135*/; top:45px;}
+.players .player2bg{ background: url('../images/melee-player2.png');  left: 1208px;/*1130px175*/; top:45px;}
+.scores .score1{ background: url('../images/scoreidlew.png');  right: -697px; top:20px;}
+.scores .score2{ background: url('../images/scoreidlew.png');  left: 1145px; top:20px;}
+
+.games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
+.games .game1 { top: 4px;  text-align:center; opacity:0; }
+.games .gamea { top: -3px; text-align:center; opacity:0;}
+.games .gameb { top: -3px; text-align:center; opacity:0;}
+
+.matches .match { position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 24px; text-align:center;}
+.matches .match1 { top: 90px; opacity:0;}
+.matches .matcha { top: 90px; opacity:0;}
+.matches .matchb { top: 90px; opacity:0;}
+
+.players .player { position: absolute; width: 265px; height: 30px;  font-family:"Engschrift Caps"; font-size:30px; }
+.players .player1 {  left: 0px; opacity:0;}
+.players .player2 {  left: 0px;  opacity:0;}
+.players .player1a { right:20px; opacity:0;text-align: right;}
+.players .player1b { right:20px; opacity:0;text-align: right;}
+.players .player2a { left: 20px; opacity:0;text-align: left;}
+.players .player2b {  left:20px; opacity:0;text-align: left;}
+
+.scores .score { position: absolute; width: 80px; height: 80px; color:black; text-align:center; font-family:"Baron Neue";  font-size: 50px;  outline: none;border: none; border-color: transparent;}
+.scores .score1txt {right:0px; top:18px;}
+.scores .score2txt {left: 0px; top:18px;}
+
+/*
+.images .image {   position: absolute; width: 50px; height: 50px;}
+.images .image1 {top: 18px; right: 991px;}
+.images .image2 {top: 18px; left:978;}*/

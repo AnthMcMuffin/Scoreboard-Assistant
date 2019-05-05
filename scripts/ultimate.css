@@ -1,0 +1,33 @@
+.full { position:absolute ; width: 1920px; height: 141px;  background-repeat: no-repeat; left:-160px; }
+.top { bottom:0px; }
+.btm { top: 5px; width: 1280px; height: 40px; }
+
+.games { background: url('../images/ultimate-game.png'); opacity:0;}
+.matches { background: url('../images/ultimate-match.png'); opacity:0;}
+.scores { width: 60px; height: 120px; background-repeat: no-repeat; }
+.players .player1bg{ background: url('../images/ultimate-player1.png');  left: 480px; top:60px; }
+.players .player2bg{ background: url('../images/ultimate-player2.png');  left: 1220px; top:60px;}
+.scores .score1{ background: url('../images/ultimate-score1.png');  left: 406px; top:60px; }
+.scores .score2{ background: url('../images/ultimate-score2.png');  left: 1146px; top:60px;}
+
+.games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
+.games .game1 { top: 4px;  text-align:center; opacity:0; }
+.games .gamea { top: -3px; text-align:center; opacity:0;}
+.games .gameb { top: -3px; text-align:center; opacity:0;}
+
+.matches .match { position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 24px; text-align:center;}
+.matches .match1 { top: 90px; opacity:0;}
+.matches .matcha { top: 90px; opacity:0;}
+.matches .matchb { top: 90px; opacity:0;}
+
+.players .player { position: absolute; width: 265px; height: 30px;  text-align: center; font-family:"Engschrift Caps"; font-size:30px; }
+.players .player1 {  left: 0px; opacity:0;}
+.players .player2 {  left: 0px;  opacity:0;}
+.players .player1a { left: 20px; opacity:0;}
+.players .player1b {  left:20px; opacity:0;}
+.players .player2a { left: 20px; opacity:0;}
+.players .player2b {  left:20px; opacity:0;}
+
+.scores .score { position: absolute; width: 78px; height: 30px;  font-family:"Baron Neue";  font-size: 30px; text-align:center; outline: none;border: none; border-color: transparent;}
+.scores .score1txt {left:-27px; top:-4px;}
+.scores .score2txt {left:-27px; top:-4px;}

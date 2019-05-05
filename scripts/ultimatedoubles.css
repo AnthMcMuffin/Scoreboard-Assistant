@@ -1,0 +1,52 @@
+.full { position:absolute ; width: 1920px; height: 141px;  background-repeat: no-repeat; left:-160px; }
+.top { bottom:0px; }
+.btm { top: 5px; width: 1280px; height: 40px; }
+
+.games { background: url('../images/ultimate-game.png'); opacity:0;}
+.matches { background: url('../images/ultimate-match.png'); opacity:0;}
+.scores { width: 60px; height: 120px; background-repeat: no-repeat; }
+.players .player1bg{ background:url('../images/ultimate-playerred.png');  left: 258px; top:60px; }
+.players .player2bg{ background: url('../images/ultimate-playerblue.png');  left: 664px; top:60px;}
+.players .player3bg{ background: url('../images/ultimate-playergreen.png');  left: 1070px; top:60px; }
+.players .player4bg{ background: url('../images/ultimate-playeryellow.png');  left: 1482px; top:60px;}
+.teamnames .teamname1bg{ background: url('../images/doubles-team.png');  left: 1558px; /*790px135*/; top:105px;}
+.teamnames .teamname2bg{ background: url('../images/doubles-team.png');  left: 1558px;/*1130px175*/; top:135px;}
+.scores .score1{ background: url('../images/doubles-score.png');  left: 1800px; top:105px;}
+.scores .score2{ background: url('../images/doubles-score.png');  left: 1800px; top:135px;}
+
+.games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
+.games .game1 { top: 4px;  text-align:center; opacity:0; }
+.games .gamea { top: -3px; text-align:center; opacity:0;}
+.games .gameb { top: -3px; text-align:center; opacity:0;}
+
+.matches .match { position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 24px; text-align:center;}
+.matches .match1 { top: 90px; opacity:0;}
+.matches .matcha { top: 90px; opacity:0;}
+.matches .matchb { top: 90px; opacity:0;}
+
+.players .player { position: absolute; width: 265px; height: 30px;  text-align: center; font-family:"Engschrift Caps"; font-size:30px; }
+.players .player1 {  left: 0px; opacity:0;}
+.players .player1a { left: 20px; opacity:0;}
+.players .player1b {  left:20px; opacity:0;}
+.players .player2 {  left: 0px;  opacity:0;}
+.players .player2a { left: 20px; opacity:0;}
+.players .player2b {  left:20px; opacity:0;}
+.players .player3 {  left: 0px; opacity:0;}
+.players .player3a { left: 20px; opacity:0;}
+.players .player3b {  left:20px; opacity:0;}
+.players .player4 {  left: 0px;  opacity:0;}
+.players .player4a { left: 20px; opacity:0;}
+.players .player4b {  left:20px; opacity:0;}
+
+
+.teamnames .teamname { position: absolute; width: 265px; height: 30px;  font-family:"Engschrift Caps"; font-size:30px; }
+.teamnames .teamname1a { left: 10px; opacity:0;text-align: left;}
+.teamnames .teamname1b { left: 10px; opacity:0;text-align: left;}
+.teamnames .teamname1color { left: 10px; opacity:0;text-align: left;}
+.teamnames .teamname2a { left: 10px; opacity:0;text-align: left;}
+.teamnames .teamname2b { left: 10px; opacity:0;text-align: left;}
+.teamnames .teamname2color {  left:10px; opacity:0;text-align: left;}
+
+.scores .score { position: absolute; width: 100px; height: 30px; text-align:center; font-family:"Baron Neue";  font-size: 30px;  outline: none;border: none; border-color: transparent;}
+.scores .score1txt {left:0px; top:-4px;}
+.scores .score2txt {left: 0px; top:-4px;}

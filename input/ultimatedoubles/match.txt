@@ -1,0 +1,7 @@
+Grand Finals || Best of 5
+Losers Bracket || Best of 3
+Losers Semifinals || Best of 3
+Losers Finals || Best of 5
+Winners Bracket || Best of 3
+Winners Semifinals || Best of 3
+Winners Finals || Best of 5

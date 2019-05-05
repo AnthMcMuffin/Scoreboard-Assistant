@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<settings>
+		<enableXml>True</enableXml>
+		<enableWss>False</enableWss>
+		<ontop>False</ontop>
+		<snapto>False</snapto>
+		<prefix>Recording</prefix>
+		<versus>VS</versus>
+		<teams>&amp;</teams>
+		<aorb>A</aorb>
+	</settings>
+	<tabs>
+		<item type="trophy2" name="ultimate" auto="true">
+			<head>Ultimate</head>
+		</item>
+		<item type="trophy4i" name="ultimatedoubles" auto="true">
+			<head>Ultimate Doubles</head>
+		</item>
+	</tabs>
+</config>
