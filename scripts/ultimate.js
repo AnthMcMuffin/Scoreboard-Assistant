@@ -38,7 +38,6 @@ function runUpdate() {
 		anime({
 		targets: '.matches',
 		opacity: [
-		{value:1, duration:0, delay:0},
 		{value:0, duration:500}
 		],
 		easing: 'easeInOutQuad',		
@@ -131,6 +130,9 @@ function runUpdate() {
 				
 		anime({
 		targets: '.player1bg',
+		opacity: [
+		{value:1, duration:0}
+		],
 		width: [
 		{value:0, duration:0},
 		{value:265, duration:2000}
@@ -208,7 +210,7 @@ function runUpdate() {
 		});
 	}
 		
-		//PLAYER 1
+		//PLAYER 2
 	if ($('#p2').get("innerHTML") != p2) {
 		
 		updating = true;
@@ -247,6 +249,9 @@ function runUpdate() {
 				
 		anime({
 		targets: '.player2bg',
+		opacity: [
+		{value:1, duration:0}
+		],
 		width: [
 		{value:0, duration:0},
 		{value:265, duration:2000}
@@ -417,7 +422,6 @@ function runUpdate() {
 		anime({
 		targets: '.games',
 		opacity: [
-		{value:1, duration:0, delay:0},
 		{value:0, duration:500}
 		],
 		easing: 'easeInOutQuad',		
