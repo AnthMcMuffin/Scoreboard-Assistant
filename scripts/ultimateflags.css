@@ -5,17 +5,17 @@
 .games { background: url('../images/ultimate-game.png'); opacity:0;}
 .matches { background: url('../images/ultimate-match.png'); opacity:0;}
 .scores { width: 60px; height: 120px; background-repeat: no-repeat;  top: 7px;}
-.players .player1bg{ background: url('../images/ultimate-player1.png');  left: 480px; top:60px; }
-.players .player2bg{ background: url('../images/ultimate-player2.png');  left: 1220px; top:60px;}
-.scores .score1{ background: url('../images/ultimate-scoreflag1.png');  left: 357px;  transform: rotate(-26deg);}
-.scores .score2{ background: url('../images/ultimate-scoreflag2.png');  left: 1097px; transform: rotate(-26deg);}
+.players .player1bg{ background: url('../images/ultimate-player1.png');  left: 480px; top:60px; opacity:0;}
+.players .player2bg{ background: url('../images/ultimate-player2.png');  left: 1220px; top:60px; opacity:0;}
+.scores .score1{ background: url('../images/ultimate-scoreflag1.png');  left: 357px;  transform: rotate(-26deg); opacity:0;}
+.scores .score2{ background: url('../images/ultimate-scoreflag2.png');  left: 1097px; transform: rotate(-26deg); opacity:0;}
 
-.games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
+.games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; opacity:0;}
 .games .game1 { top: 4px;  text-align:center; opacity:0; }
 .games .gamea { top: -3px; text-align:center; opacity:0;}
 .games .gameb { top: -3px; text-align:center; opacity:0;}
 
-.matches .match { position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 24px; text-align:center;}
+.matches .match { position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 24px; text-align:center; opacity:0;}
 .matches .match1 { top: 90px; opacity:0;}
 .matches .matcha { top: 90px; opacity:0;}
 .matches .matchb { top: 90px; opacity:0;}
@@ -30,4 +30,4 @@
 
 .scores .score { position: absolute; width: 60px; height: 120px;  font-family:"Baron Neue";  font-size: 120px; text-align:center; outline: none;border: none; border-color: transparent;}
 .scores .score1txt { top: 26px; }
-.scores .score2txt { top: 26px;}
+.scores .score2txt { top: 26px; }
