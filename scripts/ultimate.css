@@ -5,10 +5,10 @@
 .games { background: url('../images/ultimate-game.png'); opacity:0;}
 .matches { background: url('../images/ultimate-match.png'); opacity:0;}
 .scores { width: 60px; height: 120px; background-repeat: no-repeat; }
-.players .player1bg{ background: url('../images/ultimate-player1.png');  left: 480px; top:60px; }
-.players .player2bg{ background: url('../images/ultimate-player2.png');  left: 1220px; top:60px;}
-.scores .score1{ background: url('../images/ultimate-score1.png');  left: 406px; top:60px; }
-.scores .score2{ background: url('../images/ultimate-score2.png');  left: 1146px; top:60px;}
+.players .player1bg{ background: url('../images/ultimate-player1.png');  left: 480px; top:60px; opacity:0;}
+.players .player2bg{ background: url('../images/ultimate-player2.png');  left: 1220px; top:60px;opacity:0;}
+.scores .score1{ background: url('../images/ultimate-score1.png');  left: 406px; top:60px; opacity:0;}
+.scores .score2{ background: url('../images/ultimate-score2.png');  left: 1146px; top:60px; opacity:0;}
 
 .games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
 .games .game1 { top: 4px;  text-align:center; opacity:0; }
