@@ -354,6 +354,9 @@ function runUpdate() {
 		$('#s1txt').set("innerHTML", s1);
 		anime({
 		targets: '.score1',
+		opacity: [
+		{value:1, duration:0}
+		],
 		width: [
 		{value:0, duration:0},
 		{value:78, duration:2000}
@@ -397,6 +400,9 @@ function runUpdate() {
 		$('#s2txt').set("innerHTML", s2);
 		anime({
 		targets: '.score2',
+		opacity: [
+		{value:1, duration:0}
+		],
 		width: [
 		{value:0, duration:0},
 		{value:78, duration:2000}
@@ -422,7 +428,7 @@ function runUpdate() {
 		anime({
 		targets: '.games',
 		opacity: [
-		{value:0, duration:500}
+		{value:0, duration:0}
 		],
 		easing: 'easeInOutQuad',		
 		});
