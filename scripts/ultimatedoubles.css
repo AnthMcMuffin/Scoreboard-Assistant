@@ -3,16 +3,16 @@
 .btm { top: 5px; width: 1280px; height: 40px; }
 
 .games { background: url('../images/ultimate-game.png'); opacity:0;}
-.matches { background: url('../images/ultimate-match.png'); opacity:0;}
+.matches { background: url('../images/ultimate-match.png'); top: 10px; opacity:0;}
 .scores { width: 60px; height: 120px; background-repeat: no-repeat; }
-.players .player1bg{ background:url('../images/ultimate-playerred.png');  left: 258px; top:60px; }
-.players .player2bg{ background: url('../images/ultimate-playerblue.png');  left: 664px; top:60px;}
-.players .player3bg{ background: url('../images/ultimate-playergreen.png');  left: 1070px; top:60px; }
-.players .player4bg{ background: url('../images/ultimate-playeryellow.png');  left: 1482px; top:60px;}
-.teamnames .teamname1bg{ background: url('../images/doubles-team.png');  left: 1558px; /*790px135*/; top:105px;}
-.teamnames .teamname2bg{ background: url('../images/doubles-team.png');  left: 1558px;/*1130px175*/; top:135px;}
-.scores .score1{ background: url('../images/doubles-score.png');  left: 1800px; top:105px;}
-.scores .score2{ background: url('../images/doubles-score.png');  left: 1800px; top:135px;}
+.players .player1bg{ background:url('../images/ultimate-playerred.png');  left: 258px; top:60px; opacity:0;}
+.players .player2bg{ background: url('../images/ultimate-playerblue.png');  left: 664px; top:60px; opacity:0;}
+.players .player3bg{ background: url('../images/ultimate-playergreen.png');  left: 1070px; top:60px; opacity:0;}
+.players .player4bg{ background: url('../images/ultimate-playeryellow.png');  left: 1482px; top:60px; opacity:0;}
+.teamnames .teamname1bg{ background: url('../images/doubles-team.png');  left: 1558px; /*790px135*/; top:105px; opacity:0;}
+.teamnames .teamname2bg{ background: url('../images/doubles-team.png');  left: 1558px;/*1130px175*/; top:135px; opacity:0;}
+.scores .score1{ background: url('../images/doubles-score.png');  left: 1800px; top:105px; opacity:0;}
+.scores .score2{ background: url('../images/doubles-score.png');  left: 1800px; top:135px; opacity:0;}
 
 .games .game {  position: absolute; width: 1920px; height: 141px; font-family:"Engschrift Caps"; font-size: 18px; text-align:center; }
 .games .game1 { top: 4px;  text-align:center; opacity:0; }
