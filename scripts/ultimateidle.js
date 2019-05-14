@@ -3,7 +3,7 @@ var upSpeed = 5000;
 var inSpeed = 1000;
 var outSpeed = 500;
 
-var i1, i2, p1, p1a, p1b, p2, p2a, p2b, s1, s2, mm, mma, mmb, gg, gga, ggb;
+var p1, p1a, p1b, p2, p2a, p2b, s1, s2, mm, mma, mmb, gg, gga, ggb;
 var c=1;
 
 $(function() {
@@ -13,8 +13,6 @@ $(function() {
 //ROUND
 function getResponse() {
 	
-	i1 = getElement(responseXml, "image1");
-	i2 = getElement(responseXml, "image2");
 	p1 = getElement(responseXml, "player1");
 	p1a = getElement(responseXml, "player1A");
 	p1b = getElement(responseXml, "player1B");
